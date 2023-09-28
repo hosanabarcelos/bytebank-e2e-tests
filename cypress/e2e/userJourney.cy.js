@@ -1,4 +1,4 @@
-describe('User jorney', () => {
+describe('User journey', () => {
     it('if the user can access the application, perform a transaction and log out', () => {
         //acessa a página inicial
         cy.visit('/');
