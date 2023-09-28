@@ -1,4 +1,4 @@
-describe('Form register', ()=>{
+describe('Form register', () => {
     beforeEach(()=>{
       cy.visit('http://localhost:3000')
     });
