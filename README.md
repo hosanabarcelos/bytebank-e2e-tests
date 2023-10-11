@@ -2,44 +2,45 @@
     Bytebank
 </h1>
 
-Bytebank is a digital bank that requires tests of end to end of its components and pages. <br />
-With **course 03** of the automated testing training, I obtained all the knowledge present in the content below.
+Bytebank é um banco digital que precisa de testes de ponta a ponta em seus componentes e páginas. <br />
+Com o **curso 03** da formação de testes automatizados, obtive todo o conhecimento presente no conteúdo abaixo:
 
- ## 📚 Learnings
+ ## 📚 Conhecimentos
 
-Learnings acquired during development:
-- Cypress configuration;
-- Error debugging;
-- Data atributes;
-- Custom commands;
-- Equality assertions;
-- User journey;
-- Testing in different browsers.
+Conhecimentos adquiridos durante o desenvolvimento:
+- Configuração de Cypress;
+- Debug de erros;
+- Atributos de dados;
+- Criação de comandos personalizados;
+- Afirmações de igualdade;
+- Jornada de usuário;
+- Testes em diferentes navegadores.
 
   
- ## 🛠️ Technologies
+ ## 🛠️ Tecnologias
 
-Technologies used in development:
+Tecnologias usadas durante o desenvolvimento:
 
 - [React](https://react.dev/)
 - [Cypress](https://www.cypress.io/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
-## ⚙️ Setting
+## ⚙️ Como testar?
 
-Cloning the project:
+Clonando o projeto:
 ```bash
 $ git clone https://github.com/hosanabarcelos/bytebank-e2e-tests.git
 ```
 
-Run:
+Rodando:
 ``` bash
-# installing the dependencies
+# Instale as dependências:
 $ npm install
 
-# running the tests
+# Rode os testes:
 $ npm run start
+$ cd api
 $ npm run start-api
 $ npx cypress open
 ```
