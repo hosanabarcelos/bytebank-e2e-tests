@@ -40,9 +40,9 @@ $ npm install
 
 # Rode os testes:
 $ npm run start
+$ npx cypress open
 $ cd api
 $ npm run start-api
-$ npx cypress open
 ```
 ---
 
